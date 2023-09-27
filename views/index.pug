@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Clone</title>
+    <script src="../static/first.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://kit.fontawesome.com/afab6e3ce7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../static/change.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left-container">
+            <header class="head-left">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png" alt="">
+                <span>
+                    <i class="fa-brands fa-rocketchat"></i>
+                    <i class="fa-brands fa-accessible-icon"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </span>
+            </header>
+            <div class="container">
+                <div class="outer" id="study" style="background-color:#f0f2f5;">
+                    <img src="https://www.shutterstock.com/image-photo/studying-education-students-learning-concept-260nw-326594999.jpg" alt="">
+                    <div class="items">Study group👮🏻‍♀️🧑‍💻</div>
+                </div>
+                
+                <div class="outer" id="evils"> 
+                    <img src="https://thumbs.dreamstime.com/b/elvis-presley-character-cute-cartoon-73723476.jpg" alt="">
+                    
+                        <div class="items">Little Evils👿😈</div>
+                    
+                </div>
+
+                <div class="outer" id="friends">
+                    <img src="https://th.bing.com/th/id/OIP.IhocxGLZ5m50wPdPyijn3wHaEK?pid=ImgDet&rs=1" alt="">
+                    <div class="items">Friends forever🥰😍</div>
+                </div>
+                
+                <div class="outer" id="coffee">
+                    <img src="https://th.bing.com/th/id/R.a713738faa750a4062940ad1ab25931b?rik=KS8rZ5JLbG%2fnZQ&riu=http%3a%2f%2fclipart-library.com%2fimages%2fpc7r5rbLi.jpg&ehk=zT%2fBGrTMQ3t6OYKw9iFzuijxsr5fIlH70hbd6Rf0aBQ%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <div class="items">Coffee Cups☕☕</div>
+                </div>
+
+                <div class="outer" id="helpers">
+                    <img src="https://th.bing.com/th/id/OIP.eOk5TYJEEHHeEXmhK4dnawHaE2?pid=ImgDet&rs=1" alt="">
+                    <div class="items">Helping Hands🤝🏻🫴</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="right-container best"> 
+            <header class="head-right" id="head-righ">
+                
+                <div class="outer" id="study" >
+                    <img src="https://www.shutterstock.com/image-photo/studying-education-students-learning-concept-260nw-326594999.jpg" alt="">
+                    <div class="items">Study group👮🏻‍♀️🧑‍💻</div>
+                </div>
+            </header>
+            <div class="contain" id="messages">
+                <span class="go-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#5d5e5f}</style><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                </span>
+                
+            </div>
+            <footer>
+                <div class="send">
+                    <!-- <form action="#" class="send-container" id="form">
+                        <input type="text" name="messageInp" id="messageInp input">
+                        <button class="btn" type="submit">Send</button>
+                    </form> -->
+                    <form id="form" action="">
+                      <input id="input" placeholder="Type a message..." autocomplete="off"/><button class="send-btn">Send</button>
+                    </form>
+
+                </div>
+                </footer>
+        </div>
+    </div>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script src="../static/client.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+header {
+    height: 76px;
+    background-color: #f0f2f5;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left-container {
+    width: 40%;
+    border-right: 1px solid #d5d5d5;
+}
+
+.head-left img {
+    height: 40px;
+    width: 40px;
+    margin: 4px 8px;
+}
+
+.head-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+    width: 14vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outer {
+    display: flex;
+    border: 0.5px solid #f6faff;
+    height: 96px;
+}
+
+.outer img {
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 81%;
+    margin: 10px 12px;
+}
+
+.items {
+    margin: auto 8px;
+    font-size: 18px;
+    font-family: math;
+}
+
+.best {
+    width: 60%;
+    background: url('https://cdn.wallpapersafari.com/54/0/HluF7g.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain {
+   
+    height: 78vh;
+    padding: 15px 66px;
+    overflow: scroll;
+}
+.head-right img{
+    margin: 4px 10px;
+    height: 81%;
+}
+.head-right .outer{
+    display: flex;
+    border: 0.5px solid #f6faff;
+    height: 75px;
+    width: 58%;
+    border-right: none;
+}
+.left-container{
+    overflow-y: auto;
+}
+.right-container{
+    overflow-y: auto;
+    position: relative;
+    height: 100vh;
+}
+.head-right{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.message{
+    width: 35%;
+    clear: both;
+    border: 1px;
+    border-radius: 9px;
+    padding: 15px;
+    margin-bottom: 8px;
+}
+.contain .right{
+    float: right;
+    background-color: #d9fdd3;
+}
+.contain .left{
+    background-color: #efeae2;
+}
+.name{
+    color: deeppink;
+}
+#messageInp{
+    width: 80%;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+footer{
+    background-color: #e9e9e9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.btn{
+    padding: 10px 14px;
+    background: #54656f;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+.outer:hover{
+    background-color: #f6faff;
+}
+.name-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    border: 2px solid grey;
+    color: grey;
+    padding: 2px;
+    margin: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#input{
+    width: 78%;
+    border: 2px solid grey;
+    border-radius: 13px;
+    padding: 9px;
+    margin: 11px;
+}
+
+.send-btn{
+    border: 2px solid grey;
+    border-radius: 13px;
+    padding: 9px;
+    color: white;
+    background: #49c957;
+}
+
+@media screen and (max-width:806px) {
+span{
+    width: 40vw;
+}
+.contain{
+    padding: 18px 23px;
+}
+.left-container{
+    width: 100%;
+    height: 100vh;
+    }
+.right-container{
+    display:none;
+    width: 100vw;
+    height: 100vh;
+}    
+.outer{
+    height: 17vh;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    width: 100%;
+}
+}
+@media screen and (max-width: 445px){
+    #input{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 375px){
+    .head-right{
+        width: 100vw;
+    }
+    .head-right .outer{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 328px){
+    #input{
+        width: 63%;
+    }
+}
+.go-back{
+    width: 3vw;
+    cursor: pointer;
+}
