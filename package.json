@@ -13,6 +13,9 @@
     "express": "^4.18.2",
     "pug": "^3.0.2",
     "socket.io": "^4.7.2"
-  }
+  },
+  "scripts": {
+  "build": "your_build_command_here"
+}
   
 }
